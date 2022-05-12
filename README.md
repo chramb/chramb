@@ -4,7 +4,7 @@ My name is Chris, I'm a Cybersecurity student, big proponent of Open Source and 
 
 - Currently working on: Automating my homelab with Ansible.
 - Planning to learn:
-  + CI/CD with Jenkins.
+  + CI/CD,
   + Kubernetes.
 
 ## Languages and thechnologies I use:
