@@ -3,19 +3,12 @@ My name is Chris, I'm a Cybersecurity student, big proponent of Open Source and 
 Currently studying modern server administration technologies and working towards breaking into DevOps.
 
 ## Currently working on:
-> [Note]\
 > I'm testing GitHub issues/discussions as project management tool so you can use those in the respective repositories to see what I'm working on at the moment.
-
-### [Homelab](https://github.com/chramb/homelab)
-Rebuilding my  with IaC. 
-### [Gentoo](https://github.com/chramb/gentoo)
-Tooling to ease use and development of and with the distribution.
+- Rebuilding my [Homelab](https://github.com/chramb/homelab) with IaC. 
+- [Gentoo](https://github.com/chramb/gentoo) tooling to ease use and development of and with the distribution.
 
 ## Planning to learn:
-+ Programming:
-  * C
-  * Rust
-  * Zig
-+ CI/CD
++ Programming: Go, C, Rust, Zig
++ CI/CD:
   * Custom Github Actions
   * Self-hosted solution (most likely [Woodpecker CI](https://woodpecker-ci.org))
