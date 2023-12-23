@@ -1,0 +1,15 @@
+tools:
+  - name: Bash
+    img: https://keestalkstech.com/wp-content/uploads/2019/08/bash-logo-300x300.png
+  - name: Go
+    img: https://user-images.githubusercontent.com/727262/40395108-6bcc327a-5e1e-11e8-9f76-3917983b8563.png
+    lang: true
+  - name: Python
+    img: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
+    lang: true
+  - name: Podman
+    img: https://heise.cloudimg.io/width/223/q50.png-lossy-50.webp-lossy-50.foil1/_www-heise-de_/imgs/18/2/5/8/2/8/1/0/podman_logo-670078d7ea1d15a6.png
+  - name: Ansible
+    img: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ansible/ansible.png
+  - name: Terraform
+    img: https://atix.de/wp-content/uploads/Terraform-Logo-1.png
