@@ -3,7 +3,7 @@
 ## ZOS - ZFS Object Storage
 Non distributed object storage on top of ZFS filesystem
 Using: [truenas/py-libzfs](https://github.com/truenas/py-libzfs) or [kraudcloud/go-libzfs](https://github.com/kraudcloud/go-libzfs) \
-Support for Swift API and later CEPH and S3 compatible protocols
+Support for Swift API and later S3 compatible protocols
 
 
 ## OpenStack oapi-ref
