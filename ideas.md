@@ -9,7 +9,9 @@ Support for Swift API and later CEPH and S3 compatible protocols
 ## OpenStack oapi-ref
 OpenAPI documentation for OpenStack \
 based on https://docs.openstack.org/doc-contrib-guide/api-guides.html \
- also create sphinx plugin generating same html as current [api-ref](https://github.com/openstack/os-api-ref) plugin
+also create sphinx plugin generating same html as current [api-ref](https://github.com/openstack/os-api-ref) plugin
+
+A lot of work already done by: https://github.com/gtema/
 
 ## ZFS Cinder Driver
 Based on [truenas/py-libzfs](https://github.com/truenas/py-libzfs) \
@@ -30,3 +32,4 @@ Every OpenStack component has REST API, it's weird why it's not a thing yet
 static tool for signing files with ssh keys (compatible with git):
 https://github.blog/changelog/2022-08-23-ssh-commit-verification-now-supported/
 
+## Cloud Hypervisor Nova Driver
