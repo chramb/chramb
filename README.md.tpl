@@ -1,7 +1,6 @@
 # Hi there!!
 My name is Chris. 
-I'm a DevOps engineer, working towards a degree in cybersecurity 
-while trying to keep my sanity intact.
+I'm a DevOps engineer working and developing whatever I find interesting at the moment.
 
 ## Currently learing/working on:
 - Learining as much as possible and improving elements of OpenStack
