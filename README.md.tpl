@@ -8,8 +8,8 @@ while trying to keep my sanity intact.
 - Programming with Python, Go and hopefully Rust™️ soon™️
 
 ## Projects:
-- [os-tofuizer](https://github.com/chramb/os-tofuizer) - generate OpenStack terraform code from existing infrastructure
-- [blog](https://github.com/chramb/blog) - personal blog, todo: Theme, Content
+- [Blog](https://github.com/chramb/blog) - personal blog
+- [VirtBMC](https://github.com/chramb/virtbmc) - daemon interacting with IPMI protocol commands.
 
 List of projects ideas on separate [Ideas](ideas.md) page.
 
