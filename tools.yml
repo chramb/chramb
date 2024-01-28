@@ -1,6 +1,6 @@
 tools:
   - name: Bash
-    img: https://keestalkstech.com/wp-content/uploads/2019/08/bash-logo-300x300.png
+    img: https://raw.githubusercontent.com/odb/official-bash-logo/master/assets/Logos/Icons/PNG/512x512.png
   - name: Go
     img: https://user-images.githubusercontent.com/727262/40395108-6bcc327a-5e1e-11e8-9f76-3917983b8563.png
     lang: true
