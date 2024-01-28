@@ -1,35 +1,52 @@
-# List of Project ideas by category
+# SOS - Simple Object Storage
+Non distributed object storage on top of COW-filesystems
 
-## ZOS - ZFS Object Storage
-Non distributed object storage on top of ZFS filesystem
-Using: [truenas/py-libzfs](https://github.com/truenas/py-libzfs) or [kraudcloud/go-libzfs](https://github.com/kraudcloud/go-libzfs) \
-Support for Swift API and later S3 compatible protocols
+## Goals
+Support for Swift and S3 APIs. \
+Compatible Replacement to Swift in OpenStack ([Keystone Middleware](github.com/databus23/keystone)).\
+KV store with use of [badger](https://github.com/dgraph-io/badger)(probably this) or [bbolt](https://github.com/etcd-io/bbolt).
+
+## Filesystems
+- zfs: [kraudcloud/go-libzfs](https://github.com/kraudcloud/go-libzfs)
+- btrfs: [containerd/btrfs](https://github.com/containerd/btrfs)
+- bcachefs: #TODO
 
 
-## OpenStack oapi-ref
-OpenAPI documentation for OpenStack \
-based on https://docs.openstack.org/doc-contrib-guide/api-guides.html \
-also create sphinx plugin generating same html as current [api-ref](https://github.com/openstack/os-api-ref) plugin
+# OpenStack - OpenAPI Ref
+OpenAPI documentation for OpenStack - Contribute to [gtema/openstack-openapi](https://github.com/gtema/openstack-openapi)
 
-A lot of work already done by: https://github.com/gtema/
+## Components in mind
+- [Keystone](https://docs.openstack.org/api-ref/identity/)
+- [Barbican](https://docs.openstack.org/barbican/latest/api/index.html) ([Missing even here](https://docs.openstack.org/api-ref/key-manager))
+- [Designate](https://docs.openstack.org/api-ref/dns/dns-api-v2-index.html)
 
-## ZFS Cinder Driver
+# ZFS OpenStack Drivers
 Based on [truenas/py-libzfs](https://github.com/truenas/py-libzfs) \
 Focusing on features when nova and cinder are on the same machine
 
-## [oslo.config](https://github.com/openstack/oslo.config) rewrite
-- Compatible with original implementation of oslo config
-- Additional support for toml, json and yaml 
-- built-in [merge_configs](https://github.com/openstack/kolla-ansible/blob/master/ansible/action_plugins/merge_configs.py) feature
+## Components
+- Cinder Driver
+- Manila Driver
+
+
+
+# [oslo.config](https://github.com/openstack/oslo.config) - configuration expansion
+- support for toml, json and yaml 
+- [merge_configs](https://github.com/openstack/kolla-ansible/blob/master/ansible/action_plugins/merge_configs.py) feature
 - json-schema generation for configs
 
-## New modern WebUI for OpenStack
-Depends on oapi-ref
 
-Every OpenStack component has REST API, it's weird why it's not a thing yet
-
-## ssh-sign
+# ssh-sign
 static tool for signing files with ssh keys (compatible with git):
 https://github.blog/changelog/2022-08-23-ssh-commit-verification-now-supported/
 
-## Cloud Hypervisor Nova Driver
+# Cloud Hypervisor
+## Cloud Hypervisor - SDKs
+Based on [REST API](https://github.com/cloud-hypervisor/cloud-hypervisor/blob/main/docs/api.md#rest-api) defined in OpenAPI 3.0 spec
+
+## Cloud Hypervisor - Nova Driver
+## Cloud Hypervisor - Terraform Provider
+
+
+
+
