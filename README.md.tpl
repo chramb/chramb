@@ -11,7 +11,7 @@ while trying to keep my sanity intact.
 - [os-tofuizer](https://github.com/chramb/os-tofuizer) - generate OpenStack terraform code from existing infrastructure
 - [blog](https://github.com/chramb/blog) - personal blog, todo: Theme, Content
 
-List of projects ideas on separate page [Ideas](ideas.md)
+List of projects ideas on separate [Ideas](ideas.md) page.
 
 ## Tools and software currently used the most:
 {{ range .tools -}}
