@@ -19,5 +19,3 @@ List of projects ideas on separate [Ideas](ideas.md) page.
 <a href="https://github.com/search?q=user:chramb+topic:Podman&type=repositories"><img alt="Podman" src="https://heise.cloudimg.io/width/223/q50.png-lossy-50.webp-lossy-50.foil1/_www-heise-de_/imgs/18/2/5/8/2/8/1/0/podman_logo-670078d7ea1d15a6.png" width=45></a>
 <a href="https://github.com/search?q=user:chramb+topic:Ansible&type=repositories"><img alt="Ansible" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ansible/ansible.png" width=45></a>
 <a href="https://github.com/search?q=user:chramb+topic:Terraform&type=repositories"><img alt="Terraform" src="https://atix.de/wp-content/uploads/Terraform-Logo-1.png" width=45></a>
-g" width=45></a>
-/uploads/Terraform-Logo-1.png" width=45></a>
