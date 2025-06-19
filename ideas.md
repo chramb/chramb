@@ -1,34 +1,6 @@
-# SOS - Simple Object Storage
-Non distributed object storage on top of COW-filesystems
+# goDAVd
 
-## Goals
-Support for Swift and S3 APIs. \
-Compatible Replacement to Swift in OpenStack ([Keystone Middleware](github.com/databus23/keystone)).\
-KV store with use of [badger](https://github.com/dgraph-io/badger)(probably this) or [bbolt](https://github.com/etcd-io/bbolt).
-
-## Filesystems
-- zfs: [kraudcloud/go-libzfs](https://github.com/kraudcloud/go-libzfs)
-- btrfs: [containerd/btrfs](https://github.com/containerd/btrfs)
-- bcachefs: #TODO
-
-
-# OpenStack - OpenAPI Ref
-OpenAPI documentation for OpenStack - Contribute to [gtema/openstack-openapi](https://github.com/gtema/openstack-openapi)
-
-## Components in mind
-- [Keystone](https://docs.openstack.org/api-ref/identity/)
-- [Barbican](https://docs.openstack.org/barbican/latest/api/index.html) ([Missing even here](https://docs.openstack.org/api-ref/key-manager))
-- [Designate](https://docs.openstack.org/api-ref/dns/dns-api-v2-index.html)
-
-# ZFS OpenStack Drivers
-Based on [truenas/py-libzfs](https://github.com/truenas/py-libzfs) \
-Focusing on features when nova and cinder are on the same machine
-
-## Components
-- Cinder Driver
-- Manila Driver
-
-
+Simple CalDAV/CardDAV/WebDAV daemon to replace NextCloud
 
 # [oslo.config](https://github.com/openstack/oslo.config) - configuration expansion
 - support for toml, json and yaml 
@@ -36,8 +8,7 @@ Focusing on features when nova and cinder are on the same machine
 - json-schema generation for configs
 
 # Nova Drivers
-## Cloud Hypervisor
-OpenAPI Spec available in [GitHub repo](https://github.com/cloud-hypervisor/cloud-hypervisor/blob/main/docs/api.md)
+
 ## QEMU
 Use QMP to manage QEMU and expose much more options than default Driver
 
@@ -48,23 +19,20 @@ Useful Resources
 ## LXC
 Use [official Python bindings](https://github.com/lxc/python3-lxc) instead of wrapping libvirt
 
-
 # ssh-sign
 static tool for signing files with ssh keys (compatible with git):
 https://github.blog/changelog/2022-08-23-ssh-commit-verification-now-supported/
 
-# Cloud Hypervisor
-## SDK
-Based on [REST API](https://github.com/cloud-hypervisor/cloud-hypervisor/blob/main/docs/api.md#rest-api) defined in OpenAPI 3.0 spec
+# wgd
 
-## Terraform Provider
-Based on SDK
+Dynamic wireguard configuration tool
 
-
-# Redfish Server implementation
-- For QEMU
-- For OpenStack - [gophercloud](https://github.com/gophercloud/gophercloud)
-- For Intel AMT - [OpenAMT Cloud Toolkit](https://open-amt-cloud-toolkit.github.io/docs/2.20/)
+- integrate with NetworkManager, systemd-networkd, ifupdown and whatever else is there
+- Nat traversal and relying (hub and spoke)
+- pluggable inventory (Mainly DNS for now)
 
 
+# amtlib
+
+Python sdk for intel amt
 
